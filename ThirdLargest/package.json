@@ -1,0 +1,11 @@
+{
+  "name": "thirdlargest",
+  "version": "1.0.0",
+  "description": "The program used to find the third largest number from given integer array",
+  "main": "thirdLargestElement.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sanduni",
+  "license": "ISC"
+}
