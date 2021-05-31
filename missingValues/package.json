@@ -1,0 +1,11 @@
+{
+  "name": "missing-values",
+  "version": "1.0.0",
+  "description": "The program used to find the missing values from the given sequence",
+  "main": "missing.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sanduni",
+  "license": "ISC"
+}
