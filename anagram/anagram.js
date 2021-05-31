@@ -3,11 +3,6 @@ function anagram( firstWord, secondWord) {
    let len1 = firstWord.length;
    let len2 = secondWord.length;
 
-   // if(len1 !== len2){
-
-   //    console.log('Can not be an anagram..!');
-     
-   // }
 
    let first = firstWord.split('').sort().join('');
    let second = secondWord.split('').sort().join('');
