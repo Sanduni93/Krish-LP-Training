@@ -1,0 +1,52 @@
+<div class="card">
+
+    <div class="card-body">
+
+        <div class="table-responsive">
+            <table class="table"  *ngIf="!showTable">
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Address</th>
+                        <th>Phone Number</th>
+                        <th>Pet's Details</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor = "let owner of owners">
+                        <td>{{owner.id}}</td>
+                        <td>{{owner.firstName}}</td>
+                        <td>{{owner.lastName}}</td>
+                        <td>{{owner.address}}</td>
+                        <td>{{owner.phoneNumber}}</td>
+                        <td>{{owner.petDetails}}</td>
+                        <td><button [routerLink]="['/owners/update', owner.id]" class="btn btn-primary">Edit</button></td>
+                        <td><button (click) = "onDelete(owner.id)" class="btn btn-primary">Delete</button></td>                        
+                    </tr>                 
+                </tbody>                          
+            </table>
+            <table class = "otherButtons">
+                <thead>
+                    <tr>
+                        <th>
+                            <button (click) = "toggleShowTable()" class = "btn btn-primary" >
+                                {{showTable?"List All":"Hide"}}
+                            </button>
+                            
+                        </th>
+                        <th>
+                            <button routerLink="/owners/add/0" class="btn btn-primary">Add owner</button>
+                        </th>
+                    </tr>
+                </thead>
+
+            </table>
+        </div>
+    </div>
+</div>
+
+
+

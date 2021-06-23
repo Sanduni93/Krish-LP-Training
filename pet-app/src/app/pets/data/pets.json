@@ -1,0 +1,33 @@
+[
+    {
+        "id":1,
+        "petType":"Dog",
+        "vaccination":"Rabies",
+        "doneDate":"2021.01.03",
+        "period":"3 years",
+        "nextDate":"2024.01.03",
+        "ownerDetails":"Sunil's dog"
+
+    },
+  
+    {
+        "id":2,
+        "petType":"Cat",
+        "vaccination":"FELV",
+        "doneDate":"2021.02.03",
+        "period":"1 year",
+        "nextDate":"2022.02.03",
+        "ownerDetails":"Nimali's cat"
+
+    },
+    {
+        "id":3,
+        "petType":"Bird",
+        "vaccination":"Polyoma virus",
+        "doneDate":"2021.03.03",
+        "period":"2 Weeks",
+        "nextDate":"2021.03.17",
+        "ownerDetails":"Sanjay's bird"
+
+    }
+]

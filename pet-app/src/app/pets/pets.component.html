@@ -1,0 +1,54 @@
+<p>pets works!</p>
+<div class="card">
+
+    <div class="card-body">
+
+        <div class="table-responsive">
+            <table class="table"  *ngIf="!showTable">
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Pet Type</th>
+                        <th>Vaccination</th>
+                        <th>Done Date</th>
+                        <th>Period</th>
+                        <th>Next Date</th>
+                        <th>Owner's Details</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor = "let pet of pets">
+                        <td>{{pet.id}}</td>
+                        <td>{{pet.petType}}</td>
+                        <td>{{pet.vaccination}}</td>
+                        <td>{{pet.doneDate}}</td>
+                        <td>{{pet.period}}</td>
+                        <td>{{pet.nextDate}}</td>
+                        <td>{{pet.ownerDetails}}</td>
+                        <td><button [routerLink]="['/pets/updatepet',pet.id]" class="btn btn-primary">Edit</button></td>
+                        <td><button (click) = "onDelete(pet.id)" class="btn btn-primary">Delete</button></td>                        
+                    </tr>                 
+                </tbody>                          
+            </table>
+            <table class = "otherButtons">
+                <thead>
+                    <tr>
+                        <th>
+                            <button (click) = "toggleShowTable()" class = "btn btn-primary" >
+                                {{showTable?"List All":"Hide"}}
+                            </button>
+                            
+                        </th>
+                        <th>
+                            <button routerLink="/pets/add/0" class="btn btn-primary">Add Pet</button>
+                        </th>
+                    </tr>
+                </thead>
+
+            </table>
+        </div>
+    </div>
+</div>
+
+
+

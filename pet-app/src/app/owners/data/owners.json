@@ -1,0 +1,29 @@
+[
+    {
+        "id":1,
+        "firstName":"Sunil",
+        "lastName":"Perera",
+        "address":"Pamburana,Matara",
+        "phoneNumber":"123",
+        "petDetails":"An owner of a dog"
+
+    },
+    {
+        "id":2,
+        "firstName":"Nimali",
+        "lastName":"Jay",
+        "address":"Galle",
+        "phoneNumber":"213",
+        "petDetails":"An owner of a cat"
+
+    },
+    {
+        "id":3,
+        "firstName":"Sanjay",
+        "lastName":"Ranathunga",
+        "address":"Matara",
+        "phoneNumber":"423",
+        "petDetails":"An owner of a bird"
+
+    }
+]

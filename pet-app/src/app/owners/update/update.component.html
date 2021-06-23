@@ -1,0 +1,41 @@
+<div class="container mt-5">
+    
+    <h2>Update Owner's Details</h2>
+
+    <form>
+
+        <div class="form-group">
+            <label for="">Id</label>
+            <input type="number" class="form-control" [ngModel] = "owner.id" name="id">
+            
+        </div>
+        <div class="form-group">
+            <label for="">First Name</label>
+            <input type="text" class="form-control" [ngModel] = "owner.firstName" name="firstName">
+            
+        </div>
+        <div class="form-group">
+            <label for="">Last Name</label>
+            <input type="text" class="form-control" [ngModel] = "owner.lastName" name="lastName">
+            
+        </div>
+        <div class="form-group">
+            <label for="">Address</label>
+            <input type="text" class="form-control" [ngModel] = "owner.address" name="address">
+            
+        </div>
+        <div class="form-group">
+            <label for="">Phone Number</label>
+            <input type="text" class="form-control" [ngModel] = "owner.phoneNumber" name="phoneNumber">
+            
+        </div>
+        <div class="form-group">
+            <label for="">Pet's Details</label>
+            <input type="text" class="form-control" [ngModel] = "owner.petDetails" name="petDetails">
+           
+        </div>
+        <div class="form-group">
+            <button class="btn btn-primary" type="submit">Save</button>
+        </div>
+    </form>
+</div>
