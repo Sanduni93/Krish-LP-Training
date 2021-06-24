@@ -1,0 +1,4 @@
+com\sanduni\rentcloud\model\customer\Customer.class
+com\sanduni\rentcloud\model\customer\Loyality.class
+com\sanduni\rentcloud\model\rent\Rent.class
+com\sanduni\rentcloud\model\vehicle\Vehicle.class
