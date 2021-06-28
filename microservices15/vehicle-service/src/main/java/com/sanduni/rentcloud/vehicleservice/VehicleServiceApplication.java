@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 
 @SpringBootApplication
-@EntityScan(basePackages = "com.sanduni.rentcloud.model.customer")
+@EntityScan(basePackages = "com.sanduni.rentcloud.model.vehicle")
 public class VehicleServiceApplication {
 
 	public static void main(String[] args) {
